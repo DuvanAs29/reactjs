@@ -98,6 +98,75 @@ export function Home(){
           <div className="row"></div>
         </div>
         <div className="banner2"></div>
+
+        <div className='container-fluid g-0'>
+          <div className="row">
+            <div className="col-12">
+              <img src="../../src/assets/img/amparito.avif" alt="" className='img-fluid w-100' />
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 my-5">
+            <div className="col text-center">
+              <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/wallpaper2you_218330.jpg" alt="" className='img-fluid w-100' />
+                <h3>SERVICIOS 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis inventore placeat, minima illo, ullam quod, vitae accusamus numquam fugit suscipit amet voluptatibus facere in iusto aliquam dolores voluptatum! Expedita, tempora!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$855.000</h5>
+                <button className='btn btn-primary'>
+                  Ampliar
+                  <i className="bi bi-cart"></i>
+                  </button>
+              </div>
+            </div>
+            <div className="col text-center">
+            <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/wallpapersden.com_halloween-hd-2021_500x500.jpg" alt="" className='img-fluid w-100' />
+                <h3>SERVICIOS 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis inventore placeat, minima illo, ullam quod, vitae accusamus numquam fugit suscipit amet voluptatibus facere in iusto aliquam dolores voluptatum! Expedita, tempora!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$855.000</h5>
+                <button className='btn btn-primary'>
+                  Ampliar
+                  <i className="bi bi-cart"></i>
+                  </button>
+              </div>
+
+            </div>
+            <div className="col text-center">
+            <div className="card h-100 p-3 shadow">
+                <img src="../../src/assets/img/monja.webp" alt="" className='img-fluid w-100' />
+                <h3>SERVICIOS 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis inventore placeat, minima illo, ullam quod, vitae accusamus numquam fugit suscipit amet voluptatibus facere in iusto aliquam dolores voluptatum! Expedita, tempora!</p>
+                <hr />
+                <h5 className='fw-bold text-success'>$855.000</h5>
+                <button className='btn btn-primary'>
+                  Ampliar
+                  <i className="bi bi-cart"></i>
+                  </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <footer>
+          <div className="container-fluid bg-dark text-white">
+            <div className="row p-5">
+              <div className="col-6 text-end border-end">
+                <h3>Polla cargada</h3>
+                <h5>Medallo</h5>
+                <h5>Derechos protegidos por la dian &copy;</h5>
+              </div>
+
+              <div className="col-6 align-self-center">
+              <i class="bi bi-instagram p-2 fs-4"></i>
+              <i class="bi bi-twitter-x p-2 fs-4"></i>
+              <i class="bi bi-whatsapp p-2 fs-4"></i>
+              </div>
+            </div>
+          </div>
+        </footer>
         </>
     )
 }
